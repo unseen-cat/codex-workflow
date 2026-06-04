@@ -1,0 +1,44 @@
+{
+  "name": "codex-workflow",
+  "version": "1.0.0",
+  "description": "Codex-native packaging of a workflow skill pack for idea exploration, planning, execution, audit, recovery, and explanation.",
+  "author": {
+    "name": "unseen-cat",
+    "url": "https://github.com/unseen-cat/codex-workflow"
+  },
+  "homepage": "https://github.com/unseen-cat/codex-workflow",
+  "repository": "https://github.com/unseen-cat/codex-workflow",
+  "license": "MIT",
+  "keywords": [
+    "codex",
+    "skills",
+    "planning",
+    "execution",
+    "audit",
+    "recovery",
+    "workflow"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Codex Workflow",
+    "shortDescription": "Planning, execution, audit, and recovery skills for Codex.",
+    "longDescription": "A Codex-native workflow skill pack for idea exploration, explicit planning, dependency-ordered execution, audit, recovery, thorough verification, and clear explanation.",
+    "developerName": "unseen-cat",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/unseen-cat/codex-workflow",
+    "privacyPolicyURL": "https://github.com/WeZZard/skills/blob/main/LICENSE",
+    "termsOfServiceURL": "https://github.com/WeZZard/skills/blob/main/LICENSE",
+    "defaultPrompt": [
+      "Use the Codex Workflow skill pack for planning and implementation work.",
+      "Brainstorm before committing to an approach.",
+      "Write an explicit plan before editing code.",
+      "Execute the plan in dependency order.",
+      "Audit the result against the plan and fix drift."
+    ],
+    "brandColor": "#2563EB"
+  }
+}
